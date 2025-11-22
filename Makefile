@@ -3,7 +3,7 @@ ENV_FILE := env/env.yml
 
 .PHONY: bootstrap create update rebuild kernel
 
-bootstrap: update  ## create or update env from env.yml
+bootstrap: update  ## create or update env fromcond env.yml
 	@echo "Env ready: $(ENV_NAME)"
 
 create:
